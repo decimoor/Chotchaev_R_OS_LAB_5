@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chotchaev_R_OS_LAB_5", "Chotchaev_R_OS_LAB_5\Chotchaev_R_OS_LAB_5.csproj", "{CEBFAD61-2AEA-4B59-931B-4A7F9EAFAED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Negovora_S_OS_Lab_5", "Chotchaev_R_OS_LAB_5\Negovora_S_OS_Lab_5.csproj", "{CEBFAD61-2AEA-4B59-931B-4A7F9EAFAED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

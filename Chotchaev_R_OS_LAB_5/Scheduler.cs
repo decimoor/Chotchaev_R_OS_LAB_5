@@ -41,11 +41,11 @@ namespace decimoor
             }
           }
           if (!p.GetDescriptor()._context.isDone) p.Run();
-          Thread.Sleep(10);
+          Thread.Sleep(100);
           while (p.GetDescriptor()._haveControl)
           {
             Console.WriteLine("Scheduler is waiting");
-            Thread.Sleep(300);
+            Thread.Sleep(800);
           }
           Console.WriteLine("Getting to the new process");
         }

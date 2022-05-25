@@ -17,7 +17,15 @@ namespace decimoor
 
       void f1()
       {
-        Console.WriteLine("Program 1");
+        
+        for (int i = 0; i <= 5; i++) //тут "вершина" пирамиды maxCount
+        {
+          Console.WriteLine("5".PadRight(i, '5'));
+        }
+        for (int i = 5 - 1; i >= 0; i--)
+        {
+          Console.WriteLine("5".PadRight(i, '5'));
+        }
       }
 
       void f2()
@@ -32,7 +40,14 @@ namespace decimoor
 
       void f4()
       {
-        Console.WriteLine(5);
+        for (int i = 0; i <= 5; i++) //тут "вершина" пирамиды maxCount
+        {
+          Console.WriteLine("1".PadRight(i, '1'));
+        }
+        for (int i = 5 - 1; i >= 0; i--)
+        {
+          Console.WriteLine("1".PadRight(i, '1'));
+        }
       }
 
       void stopFunction(int id)
